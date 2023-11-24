@@ -8,5 +8,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@anatine/zod-mock": "^3.13.3",
+    "@faker-js/faker": "^8.3.1",
+    "tsup": "^8.0.1",
+    "vitest": "^0.34.6",
+    "zod": "^3.22.4"
+  }
 }
