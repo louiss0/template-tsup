@@ -1,19 +1,32 @@
 {
-  "name": "template-tsup",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "name",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vitest",
+    "coverage": "vitest --coverage",
+    "release": "tsup && dotenv release-it"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@anatine/zod-mock": "^3.13.3",
-    "@faker-js/faker": "^8.3.1",
-    "tsup": "^8.0.1",
-    "vitest": "^0.34.6",
-    "zod": "^3.22.4"
+  "repository": "",
+  "author": {
+    "name": "Shelton Louis",
+    "url": "https://github.com/louiss0"
   }
 }
