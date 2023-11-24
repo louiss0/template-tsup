@@ -6,7 +6,10 @@
     },
     "git": {
         "tagName": "${name}v${version}",
-        "commitMessage": "chore: release v${version}"
+        "commitMessage": "chore: release v${version}",
+        "assets": [
+            "./dist/**/*.js"
+        ]
     },
     "github": {
         "release": true
