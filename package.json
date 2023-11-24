@@ -32,6 +32,9 @@
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "semantic-release": "^22.0.8"
+    "@vitest/coverage-v8": "^0.34.6",
+    "semantic-release": "^22.0.8",
+    "tsup": "^8.0.1",
+    "vitest": "^0.34.6"
   }
 }
