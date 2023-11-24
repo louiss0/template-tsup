@@ -1,5 +1,5 @@
 {
-  "name": "name",
+  "name": "@code-fixer-23/tsup-template",
   "version": "0.0.0",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -24,7 +24,7 @@
     "build": "tsup"
   },
   "keywords": [],
-  "repository": "",
+  "repository": "https://github.com/louiss0/template-tsup",
   "author": {
     "name": "Shelton Louis",
     "url": "https://github.com/louiss0"
