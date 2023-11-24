@@ -21,7 +21,7 @@
   "scripts": {
     "dev": "vitest",
     "coverage": "vitest --coverage",
-    "release": "tsup && dotenv release-it"
+    "build": "tsup"
   },
   "keywords": [],
   "repository": "",
