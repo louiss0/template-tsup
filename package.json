@@ -33,6 +33,7 @@
     "@anatine/zod-mock": "^3.13.3",
     "@release-it/keep-a-changelog": "^5.0.0",
     "@vitest/coverage-v8": "^0.34.6",
+    "dotenv-cli": "^7.3.0",
     "release-it": "^17.0.0",
     "tsup": "^8.0.1",
     "typescript": "^5.3.2",
