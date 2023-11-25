@@ -1,9 +1,10 @@
 import { defineConfig } from 'tsup'
 
-export default defineConfig((ctx) => ({
+export default defineConfig({
     entry: ['src/index.ts'],
     splitting: false,
-    format: !ctx.watch ? ["cjs", "esm"] : "esm",
-    minify: !ctx.watch,
-    clean: !ctx.watch,
-}))
+    format: ["cjs", "esm"],
+    minify: true,
+    dts: true,
+    clean: true,
+})
